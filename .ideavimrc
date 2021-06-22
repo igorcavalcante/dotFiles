@@ -1,0 +1,32 @@
+set clipboard+=unnamedplus
+
+"search params
+set hls ic
+set incsearch
+
+set surround
+set easymotion
+set multiple-cursors
+
+let mapleader = "\"
+
+nnoremap <leader>rc :action RecentChangedFiles <CR>
+nnoremap <leader>rf :action RecentFiles <CR>
+nnoremap <leader>rn :action RenameElement <CR>
+nnoremap <leader>f :action ReformatCode<CR>
+
+nnoremap <leader>rt :action RunClass<CR>
+nnoremap <leader>rr :action Rerun<CR>
+
+nnoremap <leader>cb :action CommentByBlockComment<CR>
+nnoremap <leader>cl :action CommentByLineComment<CR>
+
+nnoremap <leader>dbt :action DebugClass<CR>
+
+nmap <C-PageDown> :action NextTab<CR>
+nmap <C-PageUp> :action PreviousTab<CR>
+
+map <C-S-F12> :source ~/.ideavimrc<CR>
+
+map <C-p> :action SearchEverywhere<CR>
+nnoremap <C-p> :action SearchEverywhere<CR>
