@@ -1,0 +1,54 @@
+/* For styling the rendered Markdown */
+:root {
+  --color-h1: #d65d0e;
+  --color-h2: #458588;
+  --color-h3: #83a598;
+  --color-text: #fbf1c7;
+  --color-red: #fb4934;
+  --color-green: #b8bb46;
+  --color-darkgreen: #98971a;
+  --color-darkyellow: #d79921;
+}
+
+h1 {
+	color: var(--color-h1) !important;
+}
+
+h2 {
+	color: var(--color-h2) !important;
+  /*width: 66%;*/
+  /*border-bottom: 1px solid #555 !important;*/
+}
+
+h3,h4,h5 {
+	color: var(--color-h3) !important;
+}
+
+body {
+	color: var(--color-text) !important;
+}
+
+em {
+	color: var(--color-green) !important;
+}
+
+strong {
+	color: var(--color-red) !important;
+  font-weight: bold;
+  font-weight: 900;
+}
+
+ul li {
+	color: var(--color-darkyellow) !important;
+}
+
+ul li ul li{
+	color: var(--color-darkgreen) !important;
+}
+
+blockquote {
+	color: var(--color-text) !important;
+  font-styling: italic;
+}
+
+

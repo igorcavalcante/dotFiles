@@ -1,0 +1,61 @@
+/* For styling the entire Joplin app (except the rendered Markdown, which is defined in `userstyle.css`) */
+/* designed for use with Dark theme */
+
+
+/* UNCOMMENT THIS RULE TO: */
+/* hide the 'click to add tag' button */
+/* div.resizableLayoutItem.rli-root > div.resizableLayoutItem.rli-editor > div:first-child > div:first-child > div:first-child > div:nth-child(4){ */
+/*   display:       none !important; */
+/* } */
+
+
+:root {
+  --color-h1: #d65d0e;
+  --color-h2: #458588;
+  --color-h3: #83a598;
+  --color-text: #fbf1c7;
+  --color-red: #fb4934;
+  --color-green: #b8bb46;
+  --color-darkgreen: #98971a;
+  --color-darkyellow: #d79921;
+}
+
+.CodeMirror-sizer {
+  margin-left: 0 !important;
+}
+
+.CodeMirror-line {
+	color: var(--color-text) !important;
+}
+
+.cm-header-1 {
+  color:            var(--color-h1) !important;
+}
+
+.cm-header-2 {
+  color:            var(--color-h2) !important;
+}
+
+.cm-header-3 {
+  color:            var(--color-h3) !important;
+}
+
+.cm-strong {
+  color: var(--color-red) !important;
+}
+
+.cm-em {
+  color: var(--color-green) !important;
+}
+
+.cm-variable-2 {
+	color: var(--color-darkyellow) !important;
+}
+
+.cm-variable-3 {
+	color: var(--color-darkgreen) !important;
+}
+
+.cm-quote {
+	color: var(--color-text) !important;
+}
