@@ -1,4 +1,9 @@
+# Ignore tudo por padrão
 *
+
+# Não ignore o próprio arquivo .gitignore
 !.gitignore
+
+# Não ignore as subpastas nvim e awesome e todo o seu conteúdo, incluindo seus .gitignore
 !nvim/
 !awesome/
