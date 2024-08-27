@@ -1,5 +1,6 @@
 return {
   'tpope/vim-fugitive',
+  event = 'BufWinEnter',
   config = function()
     vim.keymap.set('n', '<leader>gs', vim.cmd.Git)
     vim.keymap.set('n', '<leader>gc', ':Git commit<CR>', { noremap = true, silent = true })
