@@ -21,6 +21,8 @@ return {
       },
     }
 
+    require('nvim-dap-virtual-text').setup()
+
     vim.api.nvim_set_keymap('n', '<leader>dtg', ':lua require"dapui".toggle()<CR>', { noremap = true, silent = true })
     vim.api.nvim_set_keymap('n', '<leader>de', ':lua require"dapui".eval()<CR>', { noremap = true, silent = true })
 
