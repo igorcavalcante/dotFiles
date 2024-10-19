@@ -33,17 +33,14 @@ fi
 
 pkill -f xidlehook
 xidlehook \
-  --not-when-audio \
-  --detect-sleep \
-  --timer 300 'betterlockscreen -l' '' &
-#  --timer 600 'xset dpms force off' '' \
-#  --timer 21600 'systemctl suspend' '' \
-#  --timer 1 'pkill -f chrome' ''&
+  --timer 600 'betterlockscreen -l' '' \
+  --timer 600 'xset dpms force off' 'xset dpms force on' \
+  --timer 7200 'systemctl suspend' '' &
 
 pkill -f copyq
 sleep 3
 copyq &
 
-xfce4-power-manager --daemon
+# xfce4-power-manager --daemon
 
 run "flatpak run md.obsidian.Obsidian"
