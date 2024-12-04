@@ -44,3 +44,6 @@ copyq &
 # xfce4-power-manager --daemon
 
 run "flatpak run md.obsidian.Obsidian"
+
+xinput set-prop 10 317 1
+xinput set-prop 10 344 1
