@@ -33,9 +33,10 @@ fi
 
 pkill -f xidlehook
 xidlehook \
-  --timer 600 'betterlockscreen -l' '' \
-  --timer 600 'xset dpms force off' 'xset dpms force on' \
-  --timer 7200 'systemctl suspend' '' &
+  --timer 300 'betterlockscreen -l' '' \
+  --timer 600 'xset dpms force standby' 'xset dpms force on' & 
+
+#--timer 7200 'systemctl suspend' '' &
 
 pkill -f copyq
 sleep 3
