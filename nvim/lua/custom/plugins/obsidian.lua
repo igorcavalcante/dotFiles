@@ -10,7 +10,7 @@ return {
       workspaces = {
         {
           name = 'personal',
-          path = '~/Dropbox/sync/My notes',
+          path = '~/Dropbox/3. Resources/My notes',
         },
       },
 

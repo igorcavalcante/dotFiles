@@ -24,8 +24,14 @@ vim.keymap.set('n', '<Right>', '<C-w>5>', { desc = 'Expand window laterally' })
 vim.keymap.set('n', '<Left>', '<C-w>5<', { desc = 'Diminish window laterraly' })
 
 -- buffer navigation
-vim.keymap.set('n', '[b', '<cmd>bp<CR>')
-vim.keymap.set('n', ']b', '<cmd>bn<CR>')
+vim.keymap.set('n', '[b', '<cmd>bp<CR>', { desc = 'Go to previous buffer' })
+vim.keymap.set('n', ']b', '<cmd>bn<CR>', { desc = 'Go to next buffer' })
+
+-- tab navigation
+vim.keymap.set('n', '[t', '<cmd>tabprev<CR>', { desc = 'Go to previous tab' })
+vim.keymap.set('n', ']t', '<cmd>tabnext<CR>', { desc = 'Go to next tab' })
+
+vim.keymap.set('n', '<leader>bda', '<cmd>bufdo bd<CR>', { desc = 'All [B]uff [D]elete [A]ll' })
 
 -- Clear highlights on search when pressing <Esc> in normal mode
 --  See `:help hlsearch`
