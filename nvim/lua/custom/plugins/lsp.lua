@@ -18,7 +18,6 @@ return {
     vim.api.nvim_create_autocmd('LspAttach', {
       group = vim.api.nvim_create_augroup('kickstart-lsp-attach', { clear = true }),
       callback = function(event)
-
         local map = function(keys, func, desc)
           vim.keymap.set('n', keys, func, { buffer = event.buf, desc = 'LSP: ' .. desc })
         end
@@ -66,8 +65,8 @@ return {
         map('<leader>lh', vim.lsp.buf.hover, '[H]over')
         map('<leader>lf', vim.lsp.buf.format, '[F]ormat')
 
-        local open_float = function ()
-          vim.diagnostic.open_float(nil, {focus=false, scope="line"})
+        local open_float = function()
+          vim.diagnostic.open_float(nil, { focus = false, scope = 'line' })
         end
         map('<leader>ld', open_float, '[D]iagnostic Float')
 
@@ -160,8 +159,21 @@ return {
       },
     }
 
+    require('lspconfig').clangd.setup {}
 
-    require('lspconfig').clangd.setup({})
+    require('lspconfig').arduino_language_server.setup {
+      cmd = {
+        'arduino-language-server',
+        '-cli',
+        '/usr/bin/arduino-cli',
+        '-cli-config',
+        '/home/quiron/.arduino15/arduino-cli.yaml',
+        '-fqbn',
+        'arduino:avr:nano:cpu=atmega328old',
+        '-clangd',
+        'clangd',
+      },
+    }
 
     -- Ensure the servers and tools above are installed
     --  To check the current status of installed tools and/or manually install

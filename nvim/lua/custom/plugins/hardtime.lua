@@ -7,6 +7,6 @@ return {
   opts = {
     max_count = 3,
     disable_mouse = false,
-    disabled_keys = { '' },
+    -- disabled_keys = { '' },
   },
 }

@@ -2,13 +2,27 @@ return {
   {
     'CopilotC-Nvim/CopilotChat.nvim',
     dependencies = {
-      { 'github/copilot.vim' }, -- or zbirenbaum/copilot.lua
-      { 'nvim-lua/plenary.nvim', branch = 'master' }, -- for curl, log and async functions
+      { 'github/copilot.vim' }, -- ou use 'zbirenbaum/copilot.lua' se preferir
+      { 'nvim-lua/plenary.nvim' },
     },
-    build = 'make tiktoken', -- Only on MacOS or Linux
+    build = 'make tiktoken',
     opts = {
-      -- See Configuration section for options
+      mappings = {
+        complete = {
+          insert = '<C-Tab>',
+        },
+        show_diff = {
+          full_diff = true,
+        },
+      },
     },
-    -- See Commands section for default commands if you want to lazy load on them
+    config = function(_, opts)
+      require('CopilotChat').setup(opts)
+
+      vim.keymap.set({ 'v', 'n' }, '<leader>co', ':CopilotChat<CR>', { desc = 'GitHub [C]opilot [C]hat' })
+      vim.keymap.set({ 'v', 'n' }, '<leader>ce', ':CopilotChatExplain<CR>', { desc = 'GitHub [C]opilot [E]xplain' })
+      vim.keymap.set({ 'v', 'n' }, '<leader>cf', ':CopilotChatFix<CR>', { desc = 'GitHub [C]opilot [F]ix' })
+      vim.keymap.set({ 'v', 'n' }, '<leader>ct', ':CopilotChatToggle<CR>', { desc = 'GitHub [C]opilot [T]oogle' })
+    end,
   },
 }

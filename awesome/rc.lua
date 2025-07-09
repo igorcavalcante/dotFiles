@@ -715,13 +715,14 @@ end)
 -- }}}
 
 -- Enable sloppy focus, so that focus follows mouse.
-client.connect_signal("mouse::enter", function(c)
-	c:activate({ context = "mouse_enter", raise = false })
-end)
+-- client.connect_signal("mouse::enter", function(c)
+-- 	c:activate({ context = "mouse_enter", raise = false })
+-- end)
 
 awful.spawn.with_shell("sh ~/.config/awesome/autorun.sh")
 -- awful.spawn.with_shell("sleep 20s && conky -c ~/.config/conky/mocha.conf")
 -- awful.spawn.with_shell("kdeconnect-indicator")
 -- awful.spawn.with_shell("authy")
+awful.spawn.with_shell("snixembed")
 awful.spawn.with_shell("dropbox")
 awful.spawn.with_shell("blueman-applet")
