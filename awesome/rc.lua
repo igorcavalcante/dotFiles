@@ -154,8 +154,9 @@ mykeyboardlayout = awful.widget.keyboardlayout()
 -- Create a textclock widget
 mytextclock = wibox.widget.textclock()
 
-local tags1 = { "1", "3", "5", "7", "9" }
-local tags2 = { "2", "4", "6", "8", "0" }
+-- preparing for more advanced tags: WIP
+local tags1 = { "1", "2", "3", "4", "5" }
+local tags2 = { "1", "2", "3", "4", "5" }
 
 screen.connect_signal("request::desktop_decoration", function(s)
 	if s.index == 1 then
@@ -445,61 +446,46 @@ awful.keyboard.append_global_keybindings({
 	end, { description = "select previous", group = "layout" }),
 })
 
-local function workOnTag(fn, index)
-	local tag_name = tostring(index)
-	local tag = awful.tag.find_by_name(nil, tag_name)
-	if tag then
-		if tag.screen ~= awful.screen.focused() then
-			awful.screen.focus(tag.screen)
-		end
-		fn(tag)
-	end
-end
-
-local function focusTag(index)
-	workOnTag(function(tag)
-		tag:view_only()
-	end, index)
-end
-
-local function moveToTag(index)
-	local tag_name = tostring(index)
-	local tag = awful.tag.find_by_name(nil, tag_name)
-	if tag then
-		if tag.screen ~= awful.screen.focused() then
-			client.focus.move_to_screen()
-		end
-		client.focus:move_to_tag(tag)
-	end
-end
-
-local function viewToggle(index)
-	workOnTag(function(tag)
-		awful.tag.viewtoggle(tag)
-	end, index)
-end
-
 awful.keyboard.append_global_keybindings({
 	awful.key({
 		modifiers = { modkey },
 		keygroup = "numrow",
 		description = "only view tag",
 		group = "tag",
-		on_press = focusTag,
+		on_press = function(index)
+			local screen = awful.screen.focused()
+			local tag = screen.tags[index]
+			if tag then
+				tag:view_only()
+			end
+		end,
 	}),
 	awful.key({
 		modifiers = { modkey, "Control" },
 		keygroup = "numrow",
 		description = "toggle tag",
 		group = "tag",
-		on_press = viewToggle,
+		on_press = function(index)
+			local screen = awful.screen.focused()
+			local tag = screen.tags[index]
+			if tag then
+				awful.tag.viewtoggle(tag)
+			end
+		end,
 	}),
 	awful.key({
 		modifiers = { modkey, "Shift" },
 		keygroup = "numrow",
 		description = "move focused client to tag",
 		group = "tag",
-		on_press = moveToTag,
+		on_press = function(index)
+			if client.focus then
+				local tag = client.focus.screen.tags[index]
+				if tag then
+					client.focus:move_to_tag(tag)
+				end
+			end
+		end,
 	}),
 	awful.key({
 		modifiers = { modkey, "Control", "Shift" },
@@ -589,19 +575,6 @@ client.connect_signal("request::default_keybindings", function()
 			c:kill()
 		end, { description = "close", group = "client" }),
 	})
-end)
-
-local awful = require("awful")
-
-awful.tag.attached_connect_signal(nil, "property::layout", function(t)
-	if awful.layout.getname(t.layout) == "magnifier" then
-		local c = awful.client.getmaster(t.screen)
-		if c then
-			t.master_width_factor = 0.9
-		end
-	else
-		t.master_width_factor = 0.5
-	end
 end)
 
 -- }}}
