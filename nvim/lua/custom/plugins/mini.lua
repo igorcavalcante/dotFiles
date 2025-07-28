@@ -1,6 +1,6 @@
 return {
   'echasnovski/mini.nvim',
-  version = 'false',
+  version = '*',
   config = function()
     -- vim.keymap.set('n', '<leader>msc', function()
     --   MiniSessions.write 'default'
