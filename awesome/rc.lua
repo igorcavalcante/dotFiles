@@ -579,6 +579,19 @@ end)
 
 -- }}}
 
+local awful = require("awful")
+
+awful.tag.attached_connect_signal(nil, "property::layout", function(t)
+	if awful.layout.getname(t.layout) == "magnifier" then
+		local c = awful.client.getmaster(t.screen)
+		if c then
+			t.master_width_factor = 0.9
+		end
+	else
+		t.master_width_factor = 0.5
+	end
+end)
+
 -- {{{ Rules
 -- Rules to apply to new clients.
 ruled.client.connect_signal("request::rules", function()
