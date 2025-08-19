@@ -1,0 +1,11 @@
+{
+  "filter": {
+    "id": "56283865-f82a-4171-8cd5-44ea66117e68"
+  },
+  "_ns": "goidc_mongodb_qa.sessions",
+  "_host": "goidcmongo-01-167933254533.dev.mongodb.globoi.com:27017,goidcmongo-02-167933254533.dev.mongodb.globoi.com:27017",
+  "_id": "432eba80-7b63-485a-9c83-fc89eae8cd7a",
+  "_lastExecuted": {
+    "$date": "2025-05-08T17:24:46.006Z"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "sort": {
+    "requested_at": -1
+  },
+  "_id": "6115a50a-2ec0-494a-9204-c9d8b61d0a63",
+  "_lastExecuted": {
+    "$date": "2025-06-10T17:45:30.187Z"
+  },
+  "_ns": "goidc_mongodb_qa.refresh_token",
+  "_host": "goidcmongo-01-167933254533.dev.mongodb.globoi.com:27017,goidcmongo-02-167933254533.dev.mongodb.globoi.com:27017"
+}

@@ -1,0 +1,11 @@
+{
+  "filter": {
+    "signature": "f2COCYwOKVmzDtlst7hRvUsShF8xTu0l3hxYgzHdtlzjNZEJWXRMnKU1jugRTO0-nKFqQSMtn7cqKs_3W7kjsTbS9bQt5uoe4Ta9Ac6UJ6KxB6Cbdc8c1WtP7EbVEkrX6ySlASG-nAdTXvD41xco2_UMDIRMmHz91Bzd-9ssbguj1PRTA7lpgpn_annN4VhPHgB2SBhUsLe5NRIOmS3k1X1U2B02MrkBNb62CkOaaXahyu_pdGjE2WFA4IsxFq00yegzUIl9uzL6ofkRb9O1dfIUzA0gEar0ykmUlwCYVpoSgoILKxX4dLT9MA6qlBwcBvXkItjKNK8EmgJjWFIf0A"
+  },
+  "_ns": "goidc_mongodb_prod.refresh_token",
+  "_host": "goidcmongo-01-167898612612.mongodb.globoi.com:27017,goidcmongo-02-167898612612.mongodb.globoi.com:27017",
+  "_id": "774cf270-5218-4adb-b334-3b243e746aff",
+  "_lastExecuted": {
+    "$date": "2025-05-09T21:39:58.769Z"
+  }
+}

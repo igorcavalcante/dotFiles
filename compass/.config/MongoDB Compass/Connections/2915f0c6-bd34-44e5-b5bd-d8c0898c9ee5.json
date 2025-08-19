@@ -1,0 +1,18 @@
+{
+  "_id": "2915f0c6-bd34-44e5-b5bd-d8c0898c9ee5",
+  "connectionInfo": {
+    "id": "2915f0c6-bd34-44e5-b5bd-d8c0898c9ee5",
+    "lastUsed": "2025-03-27T19:27:03.982Z",
+    "favorite": {
+      "name": "goidc - docker",
+      "color": "color1"
+    },
+    "savedConnectionType": "favorite",
+    "connectionOptions": {
+      "connectionString": "mongodb://goidc_user@localhost:27017/",
+      "oidc": {}
+    }
+  },
+  "connectionSecrets": "djExlRZKPWSw22gj0VQPZAewwGBQFCCn0MyWqXn4z/NpRmhJIDERpiBfbKqMqRYuXJepRBwfaZGNsvElRvKWKQXBXEme4chw94wumCLhqhNVw6nJ+W7CQ5G0B1uMXAf3vwP5bvyCYjV7vVqB4ROyZ3Pblw==",
+  "version": 1
+}

@@ -1,0 +1,11 @@
+{
+  "filter": {
+    "doc_number": "88844477718"
+  },
+  "_ns": "glive.users",
+  "_host": "glive-01-165472066295.mongodb.globoi.com:27017,glive-02-165472066295.mongodb.globoi.com:27017",
+  "_id": "4b16406e-b89b-4884-aaa8-ef2f27cd63c0",
+  "_lastExecuted": {
+    "$date": "2025-03-10T17:58:50.274Z"
+  }
+}

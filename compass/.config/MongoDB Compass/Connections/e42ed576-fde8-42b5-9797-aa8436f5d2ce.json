@@ -1,0 +1,18 @@
+{
+  "_id": "e42ed576-fde8-42b5-9797-aa8436f5d2ce",
+  "connectionInfo": {
+    "id": "e42ed576-fde8-42b5-9797-aa8436f5d2ce",
+    "lastUsed": "2024-12-18T17:27:51.328Z",
+    "favorite": {
+      "name": "[QA] Glive",
+      "color": "color4"
+    },
+    "savedConnectionType": "favorite",
+    "connectionOptions": {
+      "connectionString": "mongodb://u_glive_mongodb@glivemongo-01-164746371041.dev.mongodb.globoi.com:27017/glive_mongodb_qa",
+      "oidc": {}
+    }
+  },
+  "connectionSecrets": "djExQ67nZ/irJdOcPDnPpfaNn86SYWjnqLVd45KX5U7bj78rBXB5jAJ1VW7zvHinrcDEME0jBi48lgrw3UjvMf/T82CXnQIyoB9c7HLPRMzuTBpUV7n64drHU+1N5t8rEdQhQS/xhjj/0VqzLos1vrDGXA==",
+  "version": 1
+}

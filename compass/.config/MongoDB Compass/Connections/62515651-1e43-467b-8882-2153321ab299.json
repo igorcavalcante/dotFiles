@@ -1,0 +1,13 @@
+{
+  "_id": "62515651-1e43-467b-8882-2153321ab299",
+  "connectionInfo": {
+    "id": "62515651-1e43-467b-8882-2153321ab299",
+    "lastUsed": "2024-02-05T20:42:59.327Z",
+    "connectionOptions": {
+      "connectionString": "mongodb://goidc_user@localhost:27017/",
+      "oidc": {}
+    }
+  },
+  "connectionSecrets": "djExlRZKPWSw22gj0VQPZAewwGBQFCCn0MyWqXn4z/NpRmhJIDERpiBfbKqMqRYuXJepRBwfaZGNsvElRvKWKQXBXEme4chw94wumCLhqhNVw6nJ+W7CQ5G0B1uMXAf3vwP5bvyCYjV7vVqB4ROyZ3Pblw==",
+  "version": 1
+}

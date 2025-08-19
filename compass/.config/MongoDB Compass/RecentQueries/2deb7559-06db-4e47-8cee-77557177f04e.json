@@ -1,0 +1,14 @@
+{
+  "filter": {
+    "fs_id": ""
+  },
+  "sort": {
+    "updated_at": -1
+  },
+  "_ns": "goidc_mongodb_prod.sessions",
+  "_host": "goidcmongo-01-167898612612.mongodb.globoi.com:27017,goidcmongo-02-167898612612.mongodb.globoi.com:27017",
+  "_id": "2deb7559-06db-4e47-8cee-77557177f04e",
+  "_lastExecuted": {
+    "$date": "2025-05-08T17:31:45.660Z"
+  }
+}

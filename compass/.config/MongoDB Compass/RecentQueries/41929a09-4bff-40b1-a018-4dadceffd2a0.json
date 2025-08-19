@@ -1,0 +1,11 @@
+{
+  "filter": {
+    "public": true
+  },
+  "_ns": "goidc_mongodb_qa.client",
+  "_host": "goidcmongo-01-167933254533.dev.mongodb.globoi.com:27017,goidcmongo-02-167933254533.dev.mongodb.globoi.com:27017",
+  "_id": "41929a09-4bff-40b1-a018-4dadceffd2a0",
+  "_lastExecuted": {
+    "$date": "2025-04-15T19:41:57.664Z"
+  }
+}

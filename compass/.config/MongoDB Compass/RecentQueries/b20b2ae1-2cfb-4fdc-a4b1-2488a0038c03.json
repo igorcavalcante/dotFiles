@@ -1,0 +1,11 @@
+{
+  "filter": {
+    "session_id": "031e774a-520c-48de-ad3d-786a09f78c3a"
+  },
+  "_id": "b20b2ae1-2cfb-4fdc-a4b1-2488a0038c03",
+  "_lastExecuted": {
+    "$date": "2025-06-16T18:19:44.453Z"
+  },
+  "_ns": "goidc_mongodb_qa.refresh_token",
+  "_host": "goidcmongo-01-167933254533.dev.mongodb.globoi.com:27017,goidcmongo-02-167933254533.dev.mongodb.globoi.com:27017"
+}

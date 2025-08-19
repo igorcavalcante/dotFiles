@@ -1,0 +1,18 @@
+{
+  "_id": "739ea6c4-6317-4d61-8fc5-7de1b11907db",
+  "connectionInfo": {
+    "id": "739ea6c4-6317-4d61-8fc5-7de1b11907db",
+    "connectionOptions": {
+      "connectionString": "mongodb://u_dev_goidc_mong@devgoidcmo-01-174912200195.dev.mongodb.globoi.com:27017/dev_goidc_mongodb_clean",
+      "oidc": {}
+    },
+    "savedConnectionType": "recent",
+    "favorite": {
+      "name": "dev clean goidc",
+      "color": "color5"
+    },
+    "lastUsed": "2025-06-09T19:36:43.809Z"
+  },
+  "connectionSecrets": "djExUtLOvnLgSunS/GN+ICOl9xj8DMAM2LR1G92eceS+totfwdkcPUfUXXAJ8Fno4MMSZneFGuH7p75gMpA3yfx/lj9U6vdxH297XdGK/QJjMqeyuPbg9fe2FAimSTupH5jSGneZalsSTw92BzjkvmgeRw==",
+  "version": 1
+}

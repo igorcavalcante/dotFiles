@@ -1,0 +1,11 @@
+{
+  "project": {
+    "tokens_to_delete._id": 1
+  },
+  "_id": "1b0c42c4-6251-40b0-8c69-ea65fe93a3ac",
+  "_lastExecuted": {
+    "$date": "2025-06-10T19:50:41.387Z"
+  },
+  "_ns": "goidc_mongodb_qa.old_refresh_tokens",
+  "_host": "goidcmongo-01-167933254533.dev.mongodb.globoi.com:27017,goidcmongo-02-167933254533.dev.mongodb.globoi.com:27017"
+}

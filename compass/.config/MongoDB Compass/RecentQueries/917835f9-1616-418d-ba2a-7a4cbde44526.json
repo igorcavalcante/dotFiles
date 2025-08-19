@@ -1,0 +1,13 @@
+{
+  "filter": {
+    "fs_id": {
+      "$exists": 1
+    }
+  },
+  "_id": "917835f9-1616-418d-ba2a-7a4cbde44526",
+  "_lastExecuted": {
+    "$date": "2025-04-03T21:06:33.417Z"
+  },
+  "_ns": "goidc_mongodb_qa.sessions",
+  "_host": "goidcmongo-01-167933254533.dev.mongodb.globoi.com:27017,goidcmongo-02-167933254533.dev.mongodb.globoi.com:27017"
+}

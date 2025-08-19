@@ -1,0 +1,11 @@
+{
+  "filter": {
+    "sesson_id": "35ca6324-07d8-448b-bb93-26f8a9724fe0"
+  },
+  "_id": "73ab1727-b8d2-421e-b896-566f38933ff1",
+  "_lastExecuted": {
+    "$date": "2025-06-02T18:17:22.807Z"
+  },
+  "_ns": "goidc_mongodb_prod.refresh_token",
+  "_host": "goidcmongo-01-167898612612.mongodb.globoi.com:27017,goidcmongo-02-167898612612.mongodb.globoi.com:27017"
+}

@@ -1,0 +1,18 @@
+{
+  "_id": "86d00c41-aaba-424b-aa1c-9c0de233bf13",
+  "connectionInfo": {
+    "id": "86d00c41-aaba-424b-aa1c-9c0de233bf13",
+    "lastUsed": "2025-06-16T18:24:36.451Z",
+    "favorite": {
+      "name": "PROD - GOIDC",
+      "color": "color6"
+    },
+    "savedConnectionType": "favorite",
+    "connectionOptions": {
+      "connectionString": "mongodb://u_goidc_mongodb@goidcmongo-01-167898612612.mongodb.globoi.com:27017,goidcmongo-02-167898612612.mongodb.globoi.com:27017/goidc_mongodb_prod?replicaSet=ReplicaSet_goidcmongo167898612612",
+      "oidc": {}
+    }
+  },
+  "connectionSecrets": "djExYRv5N7WGWnSzqpTzXFGOr+2pUIlCFeBX+q8KGRR6ez2OpCTTcAiIM412wFXDH2kotGk4y/aRXZ43OqhDEvf7+tDUwV8bMW2ACceLaXoNggF9h/2+RRs6CZ5TO0DCGr3DN4sBGXSez3GyreGRxZZMiw==",
+  "version": 1
+}

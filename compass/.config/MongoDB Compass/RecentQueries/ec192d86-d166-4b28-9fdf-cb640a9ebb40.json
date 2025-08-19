@@ -1,0 +1,11 @@
+{
+  "filter": {
+    "_id": "aaef3274-071e-4d90-9495-79f6d33924fe"
+  },
+  "_ns": "glive.users",
+  "_host": "glive-01-165472066295.mongodb.globoi.com:27017,glive-02-165472066295.mongodb.globoi.com:27017",
+  "_id": "ec192d86-d166-4b28-9fdf-cb640a9ebb40",
+  "_lastExecuted": {
+    "$date": "2025-05-09T18:34:54.570Z"
+  }
+}

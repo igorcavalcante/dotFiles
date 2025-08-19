@@ -1,0 +1,11 @@
+{
+  "filter": {
+    "fs_id": "-8D9p2SAp9zVvGRxM1IrwFAYM4-Gh_AzcFxXSdwF1EqG3Jw7HEQ5-pE5LhnZjtrSX1CBfx5yS3wsZgbSd9X99g=="
+  },
+  "_id": "d6e6ef6c-19eb-479d-b008-b5ea7273d4cd",
+  "_lastExecuted": {
+    "$date": "2025-04-07T19:13:06.015Z"
+  },
+  "_ns": "goidc_mongodb_prod.sessions",
+  "_host": "goidcmongo-01-167898612612.mongodb.globoi.com:27017,goidcmongo-02-167898612612.mongodb.globoi.com:27017"
+}

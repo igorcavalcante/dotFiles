@@ -1,0 +1,1 @@
+/home/quiron/.asdf/completions/asdf.fish

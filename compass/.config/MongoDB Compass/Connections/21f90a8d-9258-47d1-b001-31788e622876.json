@@ -1,0 +1,12 @@
+{
+  "_id": "21f90a8d-9258-47d1-b001-31788e622876",
+  "connectionInfo": {
+    "id": "21f90a8d-9258-47d1-b001-31788e622876",
+    "lastUsed": "2022-11-01T18:53:04.794Z",
+    "connectionOptions": {
+      "connectionString": "mongodb://goidc_user@localhost:27017/?authMechanism=DEFAULT&authSource=admin"
+    }
+  },
+  "connectionSecrets": "djExlRZKPWSw22gj0VQPZAewwAPv6k0x2oXsaYnMUSgBi3I=",
+  "version": 1
+}

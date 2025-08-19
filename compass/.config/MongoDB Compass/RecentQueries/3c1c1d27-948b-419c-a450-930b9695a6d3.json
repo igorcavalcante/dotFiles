@@ -1,0 +1,16 @@
+{
+  "filter": {
+    "id": {
+      "$regularExpression": {
+        "pattern": "oglobo",
+        "options": ""
+      }
+    }
+  },
+  "_ns": "goidc_mongodb_prod.client",
+  "_host": "goidcmongo-01-167898612612.mongodb.globoi.com:27017,goidcmongo-02-167898612612.mongodb.globoi.com:27017",
+  "_id": "3c1c1d27-948b-419c-a450-930b9695a6d3",
+  "_lastExecuted": {
+    "$date": "2025-03-14T14:59:19.755Z"
+  }
+}

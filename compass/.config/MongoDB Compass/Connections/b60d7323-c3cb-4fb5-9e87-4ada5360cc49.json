@@ -1,0 +1,18 @@
+{
+  "_id": "b60d7323-c3cb-4fb5-9e87-4ada5360cc49",
+  "connectionInfo": {
+    "id": "b60d7323-c3cb-4fb5-9e87-4ada5360cc49",
+    "lastUsed": "2025-06-16T17:19:31.338Z",
+    "favorite": {
+      "name": "QA -GOIDC",
+      "color": "color5"
+    },
+    "savedConnectionType": "favorite",
+    "connectionOptions": {
+      "connectionString": "mongodb://u_goidc_mongodb@goidcmongo-01-167933254533.dev.mongodb.globoi.com:27017,goidcmongo-02-167933254533.dev.mongodb.globoi.com:27017/goidc_mongodb_qa?replicaSet=ReplicaSet_goidcmongo167933254533",
+      "oidc": {}
+    }
+  },
+  "connectionSecrets": "djExJctoU0lcheFv98DsGzH4T5eM/rtk03tKgUDTsV7fyKo0yiMbIROU34Sz4Ee7GqmHHaIbePpyz2r6DZpXSi7au5zqCeDu/p463NiMY6CiY0jgZ6YQf8S0eq7YwCalaiT51c9cgWkrGczXF5VxDPQ0FA==",
+  "version": 1
+}

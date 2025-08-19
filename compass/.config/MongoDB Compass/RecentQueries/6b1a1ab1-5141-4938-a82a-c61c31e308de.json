@@ -1,0 +1,16 @@
+{
+  "filter": {
+    "federated_sid": "193c52e330cc7b294f26b51ac9051c48b2d2d313044316d755132462d4e6d554d64714237724872647348714b72645443357636765774533139754433736d767238796c726f6c584f794f535756646d5266754c6c7a725f4464672d4a6a794d6e726c734437513d3d3a303a75796e3133676a73736867787431376e34683037",
+    "requested_at": {
+      "$gte": {
+        "$date": "2024-06-01T00:00:00Z"
+      }
+    }
+  },
+  "_ns": "goidc_mongodb_prod.refresh_token",
+  "_host": "goidcmongo-01-167898612612.mongodb.globoi.com:27017,goidcmongo-02-167898612612.mongodb.globoi.com:27017",
+  "_id": "6b1a1ab1-5141-4938-a82a-c61c31e308de",
+  "_lastExecuted": {
+    "$date": "2025-06-02T18:25:57.147Z"
+  }
+}

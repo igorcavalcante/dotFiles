@@ -1,0 +1,15 @@
+{
+  "filter": {
+    "client_id": "barra@apps.globoid"
+  },
+  "project": {
+    "_id": 1
+  },
+  "limit": 100000000,
+  "_ns": "dev_goidc_mongodb_clean.refresh_token",
+  "_host": "devgoidcmo-01-174912200195.dev.mongodb.globoi.com:27017",
+  "_id": "6dbfc845-480a-4e5d-a855-b686269b5d63",
+  "_lastExecuted": {
+    "$date": "2025-06-09T19:48:22.856Z"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_id": "ea52fefc-86d5-4b7b-ac98-a16cfcce34ac",
+  "connectionInfo": {
+    "id": "ea52fefc-86d5-4b7b-ac98-a16cfcce34ac",
+    "lastUsed": "2022-12-26T20:45:02.782Z",
+    "connectionOptions": {
+      "connectionString": "mongodb://localhost:27017/"
+    }
+  },
+  "version": 1
+}

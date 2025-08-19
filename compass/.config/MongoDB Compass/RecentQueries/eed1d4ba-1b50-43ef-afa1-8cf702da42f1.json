@@ -1,0 +1,11 @@
+{
+  "filter": {
+    "email": "igor.cavalcante@g.globo"
+  },
+  "_ns": "glive.users",
+  "_host": "glive-01-165472066295.mongodb.globoi.com:27017,glive-02-165472066295.mongodb.globoi.com:27017",
+  "_id": "eed1d4ba-1b50-43ef-afa1-8cf702da42f1",
+  "_lastExecuted": {
+    "$date": "2025-03-10T17:55:15.789Z"
+  }
+}

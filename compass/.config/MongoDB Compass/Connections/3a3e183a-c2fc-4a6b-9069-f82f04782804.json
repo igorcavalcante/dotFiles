@@ -1,0 +1,18 @@
+{
+  "_id": "3a3e183a-c2fc-4a6b-9069-f82f04782804",
+  "connectionInfo": {
+    "id": "3a3e183a-c2fc-4a6b-9069-f82f04782804",
+    "lastUsed": "2025-05-09T18:27:00.929Z",
+    "favorite": {
+      "name": "[PROD] glive",
+      "color": "color6"
+    },
+    "savedConnectionType": "favorite",
+    "connectionOptions": {
+      "connectionString": "mongodb://u_glive@glive-01-165472066295.mongodb.globoi.com:27017,glive-02-165472066295.mongodb.globoi.com:27017/glive?replicaSet=GliveReplSet",
+      "oidc": {}
+    }
+  },
+  "connectionSecrets": "djExu6+lm+NGQ1Amb7e2O3XCNDxgBpJFT+5GmPqFxf2NAmmi3XcUR+PUIvcEbRS3+LDcxRhsCC2LCndaJirwNILk0f5VOUcpsDDPa6JaoyN9QEDwU7+6+WxpJLiWEzmWfJ/uRO6vOLrjhmAWlPN/A21uhQ==",
+  "version": 1
+}

@@ -1,0 +1,11 @@
+{
+  "filter": {
+    "request_id": "5ae2a6a1-d8a9-42cb-9912-12a1e5deb164"
+  },
+  "_ns": "goidc_mongodb_prod.refresh_token",
+  "_host": "goidcmongo-01-167898612612.mongodb.globoi.com:27017,goidcmongo-02-167898612612.mongodb.globoi.com:27017",
+  "_id": "e468918e-3f6c-4058-a134-7575ba4cdb20",
+  "_lastExecuted": {
+    "$date": "2025-05-14T20:07:59.426Z"
+  }
+}
