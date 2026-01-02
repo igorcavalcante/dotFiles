@@ -108,3 +108,7 @@ source $ZSH/oh-my-zsh.sh
 #autoload -Uz compinit && compinit
 export PATH=$PATH:/home/quiron/go/bin/
 export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
+
+export EDITOR='nvim'
+export VISUAL='nvim'
+export SUDO_EDITOR='nvim'
