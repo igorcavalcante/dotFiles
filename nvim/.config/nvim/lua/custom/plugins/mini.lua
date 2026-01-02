@@ -23,7 +23,20 @@ return {
     -- - saiw) - [S]urround [A]dd [I]nner [W]ord [)]Paren
     -- - sd'   - [S]urround [D]elete [']quotes
     -- - sr)'  - [S]urround [R]eplace [)] [']
-    require('mini.surround').setup()
+    require('mini.surround').setup {
+      mappings = {
+        add = 'gza', -- Adicionar (era sa)
+        delete = 'gzd', -- Deletar (era sd)
+        find = 'gzf', -- Encontrar (era sf)
+        find_left = 'gzF', -- Encontrar esquerda (era sF)
+        highlight = 'gzh', -- Highlight (era sh)
+        replace = 'gzr', -- Substituir (era sr)
+        update_n_lines = 'gzn', -- Atualizar linhas (era sn)
+
+        suffix_last = 'l', -- sufixo para "last"
+        suffix_next = 'n', -- sufixo para "next"
+      },
+    }
     -- Simple and easy statusline.
     --  You could remove this setup call if you don't like it,
     --  and try some other statusline plugin
