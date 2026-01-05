@@ -186,6 +186,15 @@ bar {
 gaps outer 5
 gaps inner 5
 
+# Mapeamento de workspaces
+exec --no-startup-id ~/.screenlayout/default-double.sh
+
+workspace 2 output DP-2
+workspace 4 output DP-2
+workspace 6 output DP-2
+workspace 8 output DP-2
+workspace 10 output DP-2
+
 # Classes
 # assign [class="ChromePessoal"] 4
 # assign [class="ChromeTrabalho"] 2
