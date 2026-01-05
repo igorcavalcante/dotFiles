@@ -182,9 +182,15 @@ bar {
         status_command i3status
 }
 
+# Gaps
+gaps outer 5
+gaps inner 5
+
 # Classes
-assign [class="ChromePessoal"] 4
-assign [class="ChromeTrabalho"] 2
+# assign [class="ChromePessoal"] 4
+# assign [class="ChromeTrabalho"] 2
+# assign [class="ChromeTrabalho"] 2
+assign [class="google-chrome-stable"] 2
 assign [class="obsidian"] 10
 
 # Atalhos
