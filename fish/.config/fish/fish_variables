@@ -1,6 +1,10 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
+SETUVAR --export GTK_IM_MODULE:cedilla
 SETUVAR --export --path PATH:/home/quiron/\x2ecargo/bin\x1e/home/quiron/\x2easdf/shims\x1e/home/quiron/\x2easdf/bin\x1e/home/quiron/tmp/google\x2dcloud\x2dsdk/bin\x1e/home/quiron/\x2easdf/installs/rust/1\x2e75\x2e0/bin\x1e/home/quiron/go/bin\x1e/home/quiron/\x2elocal/bin\x1e/home/quiron/\x2easdf/shims\x1e/home/quiron/\x2easdf/bin\x1e/home/quiron/\x2ecargo/bin\x1e/home/quiron/\x2ecargo/bin\x1e/usr/local/bin\x1e/usr/bin\x1e/var/lib/snapd/snap/bin\x1e/usr/local/sbin\x1e/var/lib/flatpak/exports/bin\x1e/usr/bin/site_perl\x1e/usr/bin/vendor_perl\x1e/usr/bin/core_perl\x1e/home/quiron/\x2ervm/bin\x1e/home/quiron/\x2easdf/installs/golang/1\x2e22\x2e4/packages/bin
+SETUVAR --export QT_IM_MODULE:xim
+SETUVAR --export XCOMPOSEFILE:/home/quiron/\x2eXCompose
+SETUVAR --export XMODIFIERS:\x40im\x3dxim
 SETUVAR __fish_initialized:3800
 SETUVAR fish_color_autosuggestion:brblack
 SETUVAR fish_color_cancel:\x2dr

@@ -60,3 +60,8 @@ set -gx XDG_CURRENT_DESKTOP "GNOME"
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/opt/google-cloud-cli/path.fish.inc' ]; . '/opt/google-cloud-cli/path.fish.inc'; end
+
+set -Ux GTK_IM_MODULE cedilla
+# set -Ux QT_IM_MODULE xim
+# set -Ux XMODIFIERS @im=xim
+# set -Ux XCOMPOSEFILE ~/.XCompose
