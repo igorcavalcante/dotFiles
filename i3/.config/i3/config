@@ -46,6 +46,7 @@ bindsym $mod+Return exec kitty
 
 # kill focused window
 bindsym $mod+Shift+q kill
+bindsym $mod+c kill
 
 # start dmenu (a program launcher)
 # bindsym $mod+d exec --no-startup-id dmenu_run
@@ -62,12 +63,6 @@ bindsym $mod+j focus down
 bindsym $mod+k focus up
 bindsym $mod+l focus right
 
-# alternatively, you can use the cursor keys:
-bindsym $mod+Left focus left
-bindsym $mod+Down focus down
-bindsym $mod+Up focus up
-bindsym $mod+Right focus right
-
 # move focused window
 bindsym $mod+Shift+h move left
 bindsym $mod+Shift+j move down
@@ -81,14 +76,20 @@ bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 bindsym $mod+v layout toggle split
-# bindsym $mod+h split h
-# bindsym $mod+v split v
+
+# bindsym $mod+Left focus left
+# bindsym $mod+Up focus up
+
+bindsym $mod+Down split v
+bindsym $mod+Right split h
+
 
 # enter fullscreen mode for the focused container
 bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
-bindsym $mod+s layout toogle all
+bindsym $mod+s layout toggle
+# bindsym $mod+Shift+s layout tabbed
 
 # toggle tiling / floating
 bindsym $mod+Shift+w floating toggle
@@ -201,9 +202,11 @@ bindsym $mod+minus scratchpad show
 exec --no-startup-id xset s 300 300
 exec --no-startup-id xset dpms 600 600 600
 exec --no-startup-id xss-lock --transfer-sleep-lock -- ~/.config/i3/i3lock.sh
+exec --no-startup-id dunst
+
 
 exec --no-startup-id picom
-exec --no-startup-id feh --bg-scale ~/Pictures/debianwp.jpg
+exec --no-startup-id feh --bg-scale ~/.config/backgrounds/lofiwallpaper.png
 exec --no-startup-id xrdb -merge ~/.Xresources
 exec_always --no-startup-id setxkbmap -layout us -variant intl
 
@@ -211,8 +214,8 @@ exec --no-startup-id copyq
 exec --no-startup-id nm-applet
 exec --no-startup-id kitty
 exec --no-startup-id google-chrome-stable
-exec --no-startup-id google-chrome-stable --profile-directory="Default" --class=ChromePessoal
+#exec --no-startup-id google-chrome-stable --profile-directory="Default" --class=ChromePessoal
 # exec --no-startup-id google-chrome-stable --profile-directory="Profile 3" --class=ChromeTrabalho
 exec --no-startup-id flatpak run md.obsidian.Obsidian
-exec --no-startup-id gpclient launch-gui
+# exec --no-startup-id gpclient launch-gui
 
