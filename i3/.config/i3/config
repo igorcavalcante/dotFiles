@@ -183,8 +183,8 @@ bar {
 }
 
 # Gaps
-gaps outer 5
-gaps inner 5
+gaps outer 1
+gaps inner 2
 
 # Mapeamento de workspaces
 exec --no-startup-id ~/.screenlayout/default-double.sh
