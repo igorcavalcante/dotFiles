@@ -224,4 +224,5 @@ exec --no-startup-id google-chrome-stable
 # exec --no-startup-id google-chrome-stable --profile-directory="Profile 3" --class=ChromeTrabalho
 exec --no-startup-id flatpak run md.obsidian.Obsidian
 # exec --no-startup-id gpclient launch-gui
+exec --no-startup-id dropbox-cli start
 
