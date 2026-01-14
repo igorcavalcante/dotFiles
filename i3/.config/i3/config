@@ -200,6 +200,10 @@ bindsym $mod+b exec ~/.config/i3/i3lock.sh
 bindsym $mod+Shift+minus move scratchpad
 bindsym $mod+minus scratchpad show
 
+bindsym $mod+period exec --no-startup-id dunstctl close
+bindsym $mod+Shift+period exec --no-startup-id dunstctl history-pop
+bindsym $mod+Control+period exec --no-startup-id dunstctl close-all
+
 
 # Autostart
 # exec_always killall polybar
